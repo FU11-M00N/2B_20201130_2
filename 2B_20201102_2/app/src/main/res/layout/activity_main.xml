@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/edtNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <RadioGroup
+        android:id="@+id/rdoGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdoAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="덧셈"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/rdoSub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="뺄셈"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/rdoMul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="곱셈"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/rdoDiv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="나눗셈"
+            android:textSize="30sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="계산하기"
+        android:textSize="36sp" />
+</LinearLayout>

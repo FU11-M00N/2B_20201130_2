@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='2B_2019201134_3_Android'

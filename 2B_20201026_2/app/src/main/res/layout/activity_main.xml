@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <RatingBar
+        android:id="@+id/rBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="10"
+        android:stepSize="1" />
+
+    <RatingBar
+        android:id="@+id/rBar2"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="10"
+        android:stepSize="1" />
+
+    <RatingBar
+        android:id="@+id/rBar3"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1.5" />
+
+    <Button
+        android:id="@+id/btnInc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="증가" />
+
+    <Button
+        android:id="@+id/btnDec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="감소" />
+
+</LinearLayout>
